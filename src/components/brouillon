@@ -1,0 +1,24 @@
+<div class="d-flex flex-row bg-dark border-bottom border-primary" >
+ <!---
+ <div class=""> <b-button  size="sm" @click="show = !show" v-if = "show">  <b-icon-chevron-bar-left></b-icon-chevron-bar-left></b-button> <b-button  size="sm" @click="show = !show"  v-else-if="!show">  <b-icon-chevron-bar-right></b-icon-chevron-bar-right></b-button>   </div>
+   -->
+
+ <b-card>   <div class=""> <b-button  size="sm" @click="show = !show" v-if = "show">  <b-icon-chevron-bar-left></b-icon-chevron-bar-left></b-button> <b-button  size="sm" @click="show = !show"  v-else-if="!show">  <b-icon-chevron-bar-right></b-icon-chevron-bar-right></b-button>   </div>
+ </b-card>
+ <div class="p-2">
+   <h2 class ="text-light"><i class="material-icons">storage</i>Sababa</h2>
+  {{hello}}
+  </div>
+
+ <div class="ml-auto text-right text-light p-2"  role="alert">
+  Nom utilisateur  {{nomutilisateurencours}} {{prenomutilisateurencours}} - Mail {{mailutilisateurencours}} - compte {{nomsociete}}
+ </div>
+
+    <!-- Gestion utilisateur -->
+
+
+ <b-button size="sm" class="mb-2">
+  <b-icon icon="gear-fill" aria-hidden="true"></b-icon> Settings
+ </b-button>
+
+</div>

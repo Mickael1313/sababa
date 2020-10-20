@@ -1,0 +1,9 @@
+ <b-form-file
+
+            nom ="toto"
+          :state="Boolean(toto)"
+            v-model="toto"
+          accept=".jpg, .png, .gif"
+          placeholder="Choisissez la photo produit...">
+    </b-form-file>
+
